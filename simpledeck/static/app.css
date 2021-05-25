@@ -89,7 +89,7 @@ span {
     grid-column: 2;
     grid-row: 2;
     position:relative;
-    height:400px;
+    height:800px;
 }
 
 .container canvas {
