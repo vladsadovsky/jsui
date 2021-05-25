@@ -1,0 +1,96 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# JavaScript
+node_modules/
+*/**/node_modules/
+coverage/
+
+*/**/yarn.lock
+yarn-error.log
+*/**/package-lock.json
+package-lock.json
+
+/bundle*.js
+npm-debug.log
+
+.DS_Store
+*.xz
+*.tar.gz
+*.sublime-project
+sublime-workspace
+*.cache
+*.bak
+*~
+*.pyc
+*~
+*.swp
+*.la
+*.lo
+*.o
+*.vtg
+*.vpwhistu
+.deps/
+.libs/
+*.vtg
+tags
+aclocal.m4
+autom4te.cache/
+autoregen.sh
+config.guess
+config.h
+config.h.in
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+Makefile.in
+missing
+stamp-h1
+compile
+CMakeFiles/
+CMakeCache.txt
+CMakeLists.txt.user
+Debug/
+
+#IDEs
+.vscode/ipch
+.history
+build/
+
+#Node
+node_modules

@@ -1,0 +1,173 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif !important;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    color: rgb(209, 177, 177);
+    background: #111;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    float:none;
+}
+
+a, a:visited {
+    color: #08f;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:white;
+}
+  
+nav ul {
+    float:none;
+}
+nav ul li{
+    display:block;
+    width:100%
+}
+
+span {
+    font-style: italic;
+}
+
+#container {
+    display:grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-template-rows: 5fr 20fr 5fr;
+    grid-gap:10x;
+}
+ 
+.container header  {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.container footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.container aside {
+    grid-row: 2;
+    grid-column:3;
+}
+
+.container nav {
+    grid-row: 2;
+    grid-column:1;
+}
+
+.container nav ul {
+    list-style-type:none;
+    display:block;
+    float:none;
+    margin:0;
+    padding:0;
+    width:100px;
+    background-color: brown;
+}
+
+.container nav ul li {
+    display:block;
+    color:blueviolet;
+    padding:8px 16px;
+    text-decoration: none;
+}
+
+.container #map {
+    grid-column: 2;
+    grid-row: 2;
+    position:relative;
+    height:400px;
+}
+
+.container canvas {
+    background:green;
+    position:absolute;
+}
+.container #selector {
+    background:aquamarine;
+    grid-column: 3;
+    grid-row:2;
+}
+
+.container * {
+    background: rgb(119, 93, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+  }
+
+.option-selector .input { 
+    display: inline-block; 
+    align-items: center; 
+    background-color: burlywood;
+    color:black;
+}
+
+.layer-selector {
+    resize: horizontal;
+    position:absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(32, 92, 74);
+    margin: 24px;
+    padding: 10px 24px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    min-width: 300px;
+    opacity: 80%;
+}
+
+.layer-selector h3 { 
+    font-size: 16px; margin: 8px 0; 
+}
+
+.layer-selector .input input { 
+    margin: 0 4px 0 0; 
+}
+
+.layer-selector label { 
+    font-size: 14px; 
+}
+
+  .control-panel {
+    position: fixed;
+    top: 200px;
+    left: 80px;
+    padding: 12px;
+    width: 320px;
+    background: rgba(40,40,40,0.8);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    opacity:67%;
+  }
+  
+  hr {
+    margin: 24px 0;
+    border-color: #888;
+    opacity: 0.3;
+  }
+  
+  .input label {
+    min-width: 60px;
+    margin-right: 8px;
+    display: inline-block;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  
+  
+ 
