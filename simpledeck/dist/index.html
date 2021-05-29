@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title:HTML App Deck.gl</title>
+    <link rel="stylesheet" href="app.css" type="text/css">
+  <link rel="icon" href="favicon.ico"><script defer src="bundle.js"></script></head>
+  <body>
+    <h1>H1: HTML App with Deck.GL, using CSS grid v3 </h1> 
+    <br>
+    <div id="container" class="container">
+      <header id="header" class="container-items"> 
+        <h2> Grid container header </h2>
+      </header>
+      <nav id="nav" class="menu"> 
+        <ul>
+          <h3> Navigation vertical</h3>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Configurator</a></li>
+        </ul>
+      </nav>
+      <div id="map" class="container-items"> Deck map 
+        <canvas id="deck-canvas"> </canvas>
+      </div>
+      <aside id="selector" class="option-selector">
+       <div class="input">
+         <h3> Option selector</h3>
+          <input type="radio" id="airports" name="opton-selector-inputs" value="airports" checked> 
+          <label for="airports">Airports Rank</label> 
+          <input type="radio" id="buildings" name="opton-selector-inputs" value="buildings"> 
+          <label for="buildings">Buildings Rank</label> 
+       </div>
+      </aside>     
+     <footer class="container-items"> Grid container footer </footer>
+    </div>
+    <div class="control-panel">
+      <h3> CONTROL PANEL</h3>
+      <div class="input">
+        <label>Show fields:</label>
+        <input id="show_fields" name="control-panel-inputs" type="checkbox" checked=false> 
+        <br>
+        <label>Max value:</label>
+        <input id="max_val"  name="control-panel-inputs" type="range" value=10>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
+

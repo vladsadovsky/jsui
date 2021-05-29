@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title:Lit - element test </title>
+  <script type="module" src="./src/app.js"></script>
+<link rel="icon" href="favicon.ico"><script defer src="bundle.js"></script></head>
+<body>
+  <h1>H1: HTML App custom Lit elements </h1> 
+
+  <p>
+    <h2>  Custom element</h2>
+    <test-element name="World"></test-element>
+    <hr> <br>
+  </p>
+
+  <h2> Custom properties</h2>
+  <li>Property 1: </li>
+  <test-property text="property one"> </test-property>
+  <li>Property 2: </li>
+  <test-property text="property two"> </test-property>
+  <li>Property default: </li>
+  <test-property> </test-property>
+  <hr>
+
+  <h2>Custom events</h2>
+  <test-event></test-event>
+  <hr> <br>
+
+  <h2>Custom style</h2>
+  <test-style></test-style>
+
+</body>
+</html>
