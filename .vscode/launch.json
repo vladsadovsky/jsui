@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "tlit1: Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}/tlit1"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "simpledeck:Chrome Local",
